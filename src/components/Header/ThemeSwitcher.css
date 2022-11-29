@@ -1,0 +1,60 @@
+body {
+  margin-top: 100px;
+}
+
+.tri-state-toggle {
+  border-radius: 24px;
+  display: inline-block;
+  overflow: hidden;
+  display: inline-flex;
+  flex-direction: row;
+  transition: all 500ms ease;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.tri-state-toggle-button {
+  border-radius: 22px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 0px solid transparent;
+  margin: 2px;
+  color: #727c8f;
+  cursor: pointer;
+
+  /*    -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition:    all 0.5s ease-in-out;
+  -ms-transition:     all 0.5s ease-in-out;
+  -o-transition:      all 0.5s ease-in-out; */
+  transition: all 0.5s ease;
+}
+
+.tri-state-toggle-button.active {
+  border: 1px solid rgba(207, 207, 207, 0.6);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  color: #6744b1;
+  font-weight: 500;
+  transition: all 0.5s ease-in;
+}
+
+#toggle-button1.active {
+  background-color: hsl(6, 63%, 50%);
+  border: 1px solid hsl(6, 63%, 50%);
+}
+
+#toggle-button2.active {
+  background-color: hsl(25, 98%, 40%);
+  border: 1px solid hsl(25, 98%, 40%);
+}
+
+#toggle-button3.active {
+  background-color: hsl(176, 100%, 44%);
+  border: 1px solid hsl(176, 100%, 44%);
+}
+
+.tri-state-toggle-button:focus {
+  outline: none;
+}

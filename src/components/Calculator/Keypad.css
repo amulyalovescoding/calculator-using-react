@@ -1,0 +1,53 @@
+.container {
+  padding: 2rem 0;
+}
+
+.keypad-row {
+  justify-content: center;
+}
+
+.numeric-button,
+.operator {
+  border-radius: 10px;
+  background-color: rgb(234, 227, 220);
+  box-shadow: rgb(180 165 151) 0px 4px 0px 0px;
+  color: rgb(68, 75, 90);
+  margin: 12px;
+  font-size: 32px !important;
+  height: 56px;
+  padding: 0.5rem 0 !important;
+}
+
+.numeric-button,
+.operator {
+  padding: 0.8rem 0 0.5rem;
+  text-align: center;
+}
+
+#del,
+#equals-key,
+#reset-key {
+  font-size: 1.5rem !important;
+  margin: 12px !important;
+  border-radius: 10px !important;
+}
+
+#del,
+#reset-key {
+  border-radius: 5px;
+  background-color: rgb(99, 112, 151);
+  box-shadow: rgb(64 78 114) 0px 4px 0px 0px;
+  color: rgb(234, 227, 220);
+}
+
+#equals-key {
+  border-radius: 5px;
+  background-color: rgb(208, 63, 47);
+  box-shadow: rgb(147 38 26) 0px 4px 0px 0px;
+  color: rgb(234, 227, 220);
+}
+
+#equals-key,
+#reset-key {
+  width: 38%;
+}
