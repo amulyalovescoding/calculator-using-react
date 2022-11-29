@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/amulyalovescoding/calculator-using-react/static/css/main.b1580919.css",
+    "main.js": "/amulyalovescoding/calculator-using-react/static/js/main.101dc1b7.js",
+    "static/js/787.2f4223ab.chunk.js": "/amulyalovescoding/calculator-using-react/static/js/787.2f4223ab.chunk.js",
+    "index.html": "/amulyalovescoding/calculator-using-react/index.html",
+    "main.b1580919.css.map": "/amulyalovescoding/calculator-using-react/static/css/main.b1580919.css.map",
+    "main.101dc1b7.js.map": "/amulyalovescoding/calculator-using-react/static/js/main.101dc1b7.js.map",
+    "787.2f4223ab.chunk.js.map": "/amulyalovescoding/calculator-using-react/static/js/787.2f4223ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1580919.css",
+    "static/js/main.101dc1b7.js"
+  ]
+}
